@@ -11,7 +11,7 @@ function carregar() {
         img.src = 'tarde.jpg'
         document.body.style.background = '#f87114'
     }else {
-        img.src = 'noite.jpg '
+        img.src = 'noite.jpg'
         document.body.style.background = '#353535'
     }
 }
