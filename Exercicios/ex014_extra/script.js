@@ -5,13 +5,13 @@ function carregar() {
     var hora = data.getHours()
         msg.innerHTML = `Agora são ${hora} horas.`
     if (hora < 12) {
-        img.src = 'manha.jpg'
+        img.src = "imagem/manha.jpg"
         document.body.style.background = '#6c63ff'
     } else if (hora < 18) {
-        img.src = 'tarde.jpg'
+        img.src = "imagem/tarde.jpg"
         document.body.style.background = '#f87114'
     }else {
-        img.src = 'noite.jpg'
+        img.src = "imagem/noite.jpg"
         document.body.style.background = '#353535'
     }
 }
