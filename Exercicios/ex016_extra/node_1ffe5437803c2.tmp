@@ -1,0 +1,30 @@
+/*function contar() {
+    var i = document.getElementById('txtini')
+    var f = document.getElementById('txtfim')
+    var p = document.getElementById('txtpas')
+    var res = document.querySelector('div#res')
+    
+    var i = Number(i.value)
+    var f = Number(f.value)
+    var p = Number(p.value)
+    do {
+        res.innerHTML = i
+        
+        i = i + p
+    } while(i <= f)
+    
+}
+*/
+
+var i = 2
+var f = 20
+var p = 3
+
+while (i <= f) {
+    console.log(i)
+    if (f > i) {
+        i = i + p
+    } else {
+        i = i - p
+    }
+}
