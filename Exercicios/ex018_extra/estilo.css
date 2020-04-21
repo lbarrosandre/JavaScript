@@ -27,3 +27,7 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+select#list {
+    width: 150px;
+}
